@@ -1,0 +1,1010 @@
+<resources>
+    <string name="app_name">DAL</string>
+    <string name="title_activity_form_registrar_usuarios">formRegistrarUsuarios</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="Loren">Un kodama es un espíritu del folclore japonés que vive en un árbol. También se conoce como kodama al propio árbol donde habita uno de estos espíritus. Por otro lado, el fenómeno del eco, dentro del folclore japonés, también es conocido por este nombre
+    Un kodama es un espíritu del folclore japonés que vive en un árbol. También se conoce como kodama al propio árbol donde habita uno de estos espíritus. Por otro lado, el fenómeno del eco, dentro del folclore japonés, también es conocido por este nombre
+    </string>
+
+    <string name="txt">txt</string>
+
+    <string name="entradatxt">A continuación, te voy a hacer unas preguntas que me van a ayudar a conocer tus hábitos de lectura y de ese modo, juntos haremos que leer sea más agradable para ti. Por favor selecciona la respuesta a cada una de las preguntas y responda las casillas a rellenar sinceramente.</string>
+
+    <string name="feedbacktype0">...</string>
+    <string name="feedbacktype1">DISFRUTO</string>
+    <string name="feedbacktype2">NO DISFRUTO</string>
+
+    <string name="feedbacktypeuno">1</string>
+    <string name="feedbacktypedos">2</string>
+    <string name="feedbacktypetres">3</string>
+    <string name="feedbacktypecuatro">4</string>
+    <string name="feedbacktypecinco">5</string>
+    <string name="feedbacktypeseis">6</string>
+    <string name="feedbacktypesiete">MAS DE 6</string>
+
+    <string name="feedbacktypesi">SI</string>
+    <string name="feedbacktypeno">NO</string>
+
+    <string name="feedbacktypePoesia">POESIA</string>
+    <string name="feedbacktypeCuentos">CUENTOS</string>
+    <string name="feedbacktypeEnsayos">ENSAYOS</string>
+    <string name="feedbacktypeNovelas">NOVELAS</string>
+    <string name="feedbacktypeRevistas">REVISTAS</string>
+    <string name="feedbacktypeComics">COMICS</string>
+    <string name="feedbacktypeOtros">OTROS</string>
+
+
+    <string name="feedbacktypemuyalto">ALTO</string>
+    <string name="feedbacktypealto">MUY ALTO</string>
+    <string name="feedbacktypebasico">BASICO</string>
+    <string name="feedbacktypebajo">BAJO</string>
+    <string name="feedbacktypemuybajo">MUY BAJO</string>
+
+    <string name="feedbacktypeentreprimeras">ENTRE LAS PRIMERAS</string>
+    <string name="feedbacktypeentreultimas">ENTRE LAS ULTIMAS</string>
+
+    <string name="feedbacktype16uno">FALTA DE CONCENTRACION</string>
+    <string name="feedbacktype16dos">NO COMPRENDER EL VOCABULARIO</string>
+    <string name="feedbacktype16tres">NO IDENTIFICAR EL TEMA DEL TEXTO</string>
+    <string name="feedbacktype16cuatro">NO IDENTIFICAR LAS IDEAS PRINCIPALES O SECUNDARIAS</string>
+    <string name="feedbacktype16cinco">LA FALTA DE MOTIVACION</string>
+    <string name="feedbacktype16seis">FALTA DE COMPRENSION DE ORTOGRAFIA Y PUNTUACION</string>
+
+    <string name="feedbacktype18uno">VAS A LA BIBLIOTECA</string>
+    <string name="feedbacktype18dos">DESCARGAS LAS LECTURA EN EL CELULAR</string>
+    <string name="feedbacktype18tres">COMPRAS UN LIBRO</string>
+    <string name="feedbacktype18cuatro">LO PIDES PRESTADO</string>
+
+    <string name="feedbacktype19uno">TIENES GANAS</string>
+    <string name="feedbacktype19dos">TE OBLIGAN TUS PADRES</string>
+    <string name="feedbacktype19tres">TE OBLIGAN LOS PROFESORES</string>
+    <string name="feedbacktype19cuatro">NECESITO UNA BUENA CALIFICACION</string>
+
+    <string name="feedbacktype20uno">PIERDES TIEMPO</string>
+    <string name="feedbacktype20dos">ES PLACENTERO</string>
+    <string name="feedbacktype20tres">ESTAS APRENDIENDO</string>
+    <string name="feedbacktype20cuatro">NO COMPRENDES NADA</string>
+
+    <string name="feedbacktypeOtra">OTRA</string>
+
+
+    <string name="pregunta_1">Cuando lees, ¿disfrutas con la lectura o la consideras una actividad no placentera?</string>
+    <string name="pregunta_2">¿Cuántos libros has leído en el tiempo de pandemia?</string>
+    <string name="pregunta_3">¿Has leído alguna vez un ensayo voluntariamente?</string>
+    <string name="pregunta_4">¿En qué asignatura los profesores suelen enviarte lecturas? Menciónalas.</string>
+    <string name="pregunta_5">¿Cuántos libros leíste durante el último curso escolar?</string>
+    <string name="pregunta_6">¿Qué lugar ocupa la lectura entre las actividades que realizas en tu tiempo libre?</string>
+    <string name="pregunta_7">¿Crees que el hábito de la lectura influye en tu rendimiento académico?</string>
+    <string name="pregunta_8">¿Consideras que la institución ha despertado en ti el interés por la lectura?</string>
+    <string name="pregunta_9">¿Consideras útil que el colegio programe una serie de actividades con el objeto de despertar en ti el interés por la lectura? Indica alguna actividad que creas positiva:</string>
+    <string name="pregunta_10">¿Qué tipo de textos prefieres para tu lectura? Indica por qué lo prefieres:</string>
+    <string name="pregunta_11">¿Consideras que el ensayo es un texto difícil y aburrido de comprender?</string>
+    <string name="pregunta_12">¿Hablas o comentas con alguien acerca de lo que lees?</string>
+    <string name="pregunta_13">¿Consideras que la familia influye en tus hábitos de lectura?</string>
+    <string name="pregunta_14">¿Piensas que la lectura es tu fuente principal de conocimiento?</string>
+    <string name="pregunta_15">¿Cómo calificarías tu nivel de comprensión lectora?</string>
+    <string name="pregunta_16">¿Cuáles son los problemas que consideras que dificultan la comprensión lectora? Puedes escoger varias opciones.</string>
+    <string name="pregunta_17">Si comparamos las horas que dedicas a la lectura con las que usas tu celular, ¿en qué proporción las situarías?. Por 1 hora de lectura;</string>
+    <string name="pregunta_18">Cuando deseas leer tu:</string>
+    <string name="pregunta_19">Lees Cuando:</string>
+    <string name="pregunta_20">Generalmente cuando lees ensayos sientes que:</string>
+
+
+    <string name="la_generacion_del_98">
+
+        Durante 1898 España sufrió una crisis, pues perdió las ultimas tierras colonizadas que le quedaban: Cuba (se independizó), Puerto Rico y Filipinas
+        (pasaron al poder de Estados Unidos). Esta situación generó un quiebre social, político, económico y moral en el país. A raíz de esto, nació La generación
+        del 98, un movimiento cultural y literario encabezado por un grupo de escritores, poetas y pensadores españoles que se unieron luego de que España perdiera
+        la guerra para manifestar a través de la literatura el malestar e indignación que les provocaba lo ocurrido.\n\n
+
+        Entre los fundadores de este movimiento se destacan tres escritores: Pío Baroja, Ramiro de Maeztu y José Martínez Ruiz, conocido como Azorín, quien fue
+        el encargado de designar el nombre a este grupo selecto de escritores en 1913 por medio de diversos ensayos críticos publicados en periódicos. Luego, a estos
+        tres autores, se les unieron Joaquín Costa, Ángel Ganivet, Miguel de Unamuno, José Ortega y Gasset, Vicente Blasco Ibáñez, Ramón María del Valle-Inclán,
+        Antonio Machado Ruiz y Manuel Machado Ruiz, autores que se encontraban de acuerdo en muchas opiniones acerca de lo terrible que era para ellos la caída del
+        gran imperio español.\n\n
+
+        Contexto histórico:\n\n
+
+        Entre 1880 y 1895, asegura Lain (1954) “inicia a forjarse la personalidad de los escritores de la generación del 98” (p. 97), en este momento se vivía una
+        España orgullosa y victoriosa, todos se sentían alegres y triunfantes, pero a pesar de eso, España ya era “un cuerpo sin consistencia histórica y social”
+        (Lain, 1954, p. 99), la unidad de sus mandatarios era mas un engaño que una realidad y a pesar de los pactos acordados, no podía evitar la pérdida de
+        territorios. Frente a esto se describe como una España “con brillo engañoso” (Lain, 1954, p. 100), pues en el fondo a los españoles les faltaba la fuerza
+        y la conciencia de crecer y dar un nivel estimable al país.\n\n
+
+        Con todo esto hubo quienes sí percibieron y sintieron “la impresión del vacío” (Lain, 1954, p. 100) que traía la situación histórica de los españoles y
+        así lo expresaron en sus escritos autores como Azorín y Menéndez Pelayo quienes se refirieron a esto como “la depresión enorme de la vida” y “un suicidio
+        lento” (Lain, 1954, p. 100). En medio de toda esa desesperanza se forjaron las personalidades de los escritores de la generación del 98, con una educación
+        pobre que ofrecía el Estado, a pesar de ser hijos de familias “medioburgueses”, pues desde entonces sus mentes ya empezaban a gestar un pensamiento
+        inconforme y revolucionario.\n\n
+
+        Características:\n\n
+
+        La generación del 98 se caracterizó por usar en sus escritos un lenguaje castellano sencillo con el fin de que fuera capaz de llegar a todos los estratos
+        sociales. Ese lenguaje sencillo no fue un impedimento para que los pensadores pudieran transmitir sus mensajes revolucionarios de manera clara y adecuada
+        a sus lectores.\n\n
+
+        Algunas de las características de este movimiento literario fueron:\n\n
+
+        •	El sentimiento patriótico. Fomentaban el orgullo nacionalista.\n\n
+
+        •	La creación de nuevas formas de expresión literaria. La novela impresionista caracterizada por contar historias a través de lo que perciben los sentidos de los personajes (colores, olores, sensaciones físicas y emocionales) y las temáticas estaban orientadas a la evocación emotiva de los detalles de la vida cotidiana que narraban usando términos sencillos y directos.\n\n
+
+        •	El uso de un lenguaje sencillo y de fácil interpretación. Priorizaban el contenido por sobre la belleza en el uso de la retórica.\n\n
+
+        •	La ideología política de izquierda. Como el anarquismo y el socialismo.\n\n
+
+        •	La preocupación por el sentido de la vida. Fomentaban los cuestionamientos existencialistas.\n\n
+
+        •	Paisajes. En España era una tradición observar los encantos de la tierra con una visión literaria, por ello muchos escritores de La generación del 98 acostumbraban a viajar de pueblo en pueblo explorando los paisajes para luego plasmarlos en sus escritos además aprovechaban para darles algunos toques filosóficos o poéticos a esos paisajes.\n\n
+
+    </string>
+
+    <string name="autores">
+
+        Autores como Azorín y Unamuno, fueron influenciados por pensadores como Nietzsche y Schopenhauer y evidenciaron su intención de ampliar el nivel intelectual de la población española en general tras difundir corrientes filosóficas del irracionalismo europeo.\n\n\n
+
+        Azorín\n\n
+
+        Dentro de los autores más importantes de La Generación del 98 se destaca Azorín cuyo verdadero nombre era José Martínez Ruiz. Nace en 1873 en Monóvar, Alicante, y muere en 1967 en Madrid. Sus primeros años de vida literaria estuvieron marcados por el esfuerzo, la lucha contra la desatención y, en ocasiones, la hostilidad. Colaboró en periódicos republicanos El País, El Progreso y EI imparcial; fue periodista de profesión y se vio, especialmente, reflejado en los problemas económicos y sociales que atravesaba España a finales del siglo XX.\n\n
+
+        En sus obras aparecen representados a la perfección el campo de Castilla y la figura del campesino español a través de detalles minuciosos y perfectamente elaborados. Sus principales obras son: La voluntad y Castilla.\n\n
+
+        Como anteriormente se mencionó, la crisis del país marcó la personalidad y, por lo tanto, el pensamiento de los escritores de La Generación de 98, todo esto marcó a Azorín respecto a la desconfianza en la política y los políticos, así que se encargó de demostrarlo en sus textos, pues le permitían expresar su descontento frente al trato que recibía la comunidad campesina. Él pretendía “poner al descubierto las miserias de la gente del campo” y lo que intentaba hacer era una aproximación a la realidad, por esta misma razón Azorín creaba textos con lenguaje sencillo para poder aportar escritos a todas las personas, no solamente a aquellos cultos que comprendían léxicos confusos.\n\n
+
+        En los últimos años vivió muy recluido en sus lecturas y paseos solitarios, animados por una tardía y vivísima afición al cine, del que se convirtió en incansable espectador y comentador. Azorín fue hombre silencioso, alto, algo grueso en sus años jóvenes, delgado y erguido en su ancianidad, de gran timidez y cortesía, lleno de bondad y mesura, a veces con una inocente ironía. Estuvo casado con Julia Guinda, quien lo acompañó inseparablemente a lo largo de tantos años de meditación y labor.\n\n
+
+        Miguel de Unamuno\n\n
+
+        Nació en Bilbao en 1864. Estudió Filosofía y Letras en Madrid y fue catedrático de griego en la Universidad de Salamanca donde ejerció muchos años como rector. A causa de su oposición a la Dictadura de Primo de Rivera, fue desterrado a la isla de Fuerteventura. Regresó en 1930 a Salamanca donde murió el 31 de diciembre de 1936.\n\n
+
+        Fue sin duda, uno de los escritores más representativos de toda La Generación del 98. De pensamiento fuerte y arraigado. La problemática existencial y filosófica está presente a lo largo de toda su obra y se refleja en la profunda angustia ante la muerte y la búsqueda infructuosa de Dios, temas que recorren toda su producción literaria. Toda su obra está llena de preocupación y problemática filosófica, pero sin perder su valor literario. El autor siente una gran angustia ante la muerte y un deseo de vida eterna que permita al hombre seguir existiendo, por ello, el problema religioso y la búsqueda angustiada de Dios son un tema constante en su vida y en su obra.\n\n
+
+        Deja de lado la belleza artística para centrarse en la transmisión de sus ideas. Cultivó todos los géneros sobre todo el ensayo. Entre sus obras, es importante mencionar: San Manuel Bueno Mártir, Niebla y Del sentimiento trágico de la vida.\n\n
+
+
+
+    </string>
+
+    <string name="la_lectura">
+
+        ¿Qué es leer?\n\n
+
+        Suele tenerse la creencia de que leer es transformar a una forma oral las palabras que encontramos escritas. Lo anterior, es un pensamiento algo incompleto, pues a pensar de entender esas palabras y saber cómo decirlas en voz alta, existen personas que no entienden absolutamente nada de lo que acaban de recitar. Cassany (2013, p.88) sugiere un significado un poco más moderno “leer es comprender” para llegar al punto de la comprensión, son necesarios algunos “requisitos” o procesos que permiten al lector entender aquello de lo que habla el texto que lee. Para esto, el lector recurre a conocimientos previos, anticipaciones, consideraciones sobre qué dirá el texto o deducir situaciones. Leer es “comprender el significado de un texto” (Cassany, 2013, p. 21) por esto, la lectura no puede ser vista solo como el acto de recitar, pues es importante que al final del acto lector, cuando se pregunte ¿qué entendió? o ¿qué le pareció el texto? el lector no solo responda “muy bueno”, más bien es importante que el lector sea consciente de que aprender a leer requiere el desarrollo de habilidades cognitivas que le permiten dar razón de aquello que le suscitó el texto.\n\n
+
+        Es importante resaltar que el aprendizaje se encuentra ligado a la lectura, por lo que esta se ha convertido, según Lerner (2001), en una necesidad para los aprendices, en la cual ellos deban recurrir a los textos para buscar y encontrar solución a problemas que necesiten ser resueltos. La información que esos textos les brinden será la guía para comprender diferentes aspectos del mundo, les servirá como formación argumentativa en caso de que deseen “defender una posición con la que están comprometidos” (Lerner, 2001, p. 26) o por el contrario debatir una idea que consideren injusta o inapropiada, además, les permitirá conocer visiones diferentes del mundo, sentirse identificados con algunos personajes o historias y conocer formas de usar el lenguaje para diferentes situaciones cotidianas. Bajo esta percepción de la infinidad de cosas que se pueden lograr gracias a la lectura es realmente imposible no verla como una necesidad que es una práctica viva y vital donde leer sea un instrumento poderoso que permita “repensar el mundo y reorganizar el propio pensamiento” (Lerner, 2001, p. 27).\n\n
+
+        Adicionalmente, debemos reconocer la relación íntima que existe entre la lectura y el texto. Este último, entendido como el contenido de una obra, el trasfondo de todo aquello que expresa un autor, las ideas y aquello que no se encuentra explícito, esto es, aquello que el texto le evoca al lector; puede ser, un sentimiento, un razonamiento, una idea, una asociación de textos, un autor, un concepto, etc. A partir de esto, Barthes (1984) presenta la idea de que un texto no puede quedarse estancado porque, en realidad, lo que hace el texto es resonar en la mente del lector recurriendo a la intertextualidad para ser analizado, comparado, criticado o complementado por el lector. Pues, bien, aquí aparece la relación entre la lectura y el texto, ya que el contenido del segundo enriquece los saberes del primero. Esto impulsa a un movimiento constante, en el cual todos esos saberes se transfieren y se transmiten a otros lectores, con esto nos referimos a que la lectura adecuada de un texto fortalece y favorece el pensamiento creador del lector, además de su pensamiento crítico. Bajo esta perspectiva, cabe señalar que tanto la lectura como el texto se encuentran asociados al disfrute, en vista de que, este debe ser para el lector un espacio placentero por medio del cual pueda encontrar la motivación que genera el hábito lector.\n\n
+
+        Ahora podemos hablar acerca de la importancia de comprender un texto y llevar la lectura de forma adecuada a los colegios. Estanislao Zuleta (1982) en su ensayo intitulado Sobre la Lectura, explica muy bien esta parte, pues asegura que desde la escuela lo que se hace es prohibir la lectura y ¿cómo lo hacen? Imponiendo y obligando a la lectura, esto de cierta manera genera resistencia en los estudiantes, que al verla como una obligación se alejan de ella. Y sí, es cierto que “leer es trabajar” como lo afirma Zuleta (1982, p.4), pero no debería ser un trabajo forzado ya que el lector debe estar interesado en “rumiar” la lectura, en comprender el código de un texto y esto no se consigue bajo presión. La lectura no puede ser obligada y mucho menos afanada, esta debe comprenderse a fondo, trabajarse lentamente para descifrar dichos códigos que aparecen en los textos y así tomar una posición activa. El error, también, radica en que los aprendices están convencidos de necesitar un maestro para leer y comprender, pero para aprender a leer solo se necesita aprender a pensar y eso es una tarea individual.\n\n
+
+
+    </string>
+
+    <string name="dimensiones_de_la_lectura">
+
+        Es de vital importancia para el proceso de lectura crítica saber “comprender, interpretar y evaluar” un texto. Cassany (2013), por ejemplo, presenta estos tres niveles básicos como la lectura de las líneas, entre líneas y tras las líneas, pero Avendaño de Barón y González-González (2020) prefieren llamarlos “Dimensiones” (p. 158), no niveles, ni momentos; más bien, “son aspectos de la lectura que concurren en ella y concuerdan, en su orden, con las dimensiones lingüística, psicolingüística y sociocultural”(Avendaño de Barón y González, 2020, p. 158) necesarias para la lectura crítica.\n\n
+
+        •	Primera dimensión. La primera dimensión hace referencia a lo que Cassany (2013) denominó “lectura de las líneas”. Consiste en comprender el carácter literal del texto, entender cada una de las situaciones que allí se presentan, teniendo en cuenta la macroestructura del texto y de ese modo, según Van Dijk (citado en Avendaño de Barón, 2016), dar cuenta del significado de las palabras y frases que allí se presentan; además, de la comprensión de la temática del texto.\n\n
+
+        •	Segunda dimensión. Esta dimensión se refiere a aquello que según Cassany (2013) “se deduce de las palabras, aunque no se haya dicho explícitamente” (p. 52) o en términos de Avendaño de Barón (2016) aquello “que no se dice, pero, que se sobreentiende” (p. 216) Esta dimensión es llamada por Cassany (2013) “entre las líneas”. Esta dimensión es de real importancia ya que el lector comprende aquello que no viene explícito en el texto y de ello puede sacar sus propias deducciones o predicciones acerca de la postura del autor o su ideología, ya que en esta dimensión es cuando el lector descubre ironías o dobles sentidos del texto.\n\n
+
+        •	Tercera dimensión. Esta es la dimensión que requiere de más cuidado en la lectura, ya que, gracias a esta, el lector tiene la capacidad de interrogar, cuestionar, analizar y reflexionar acerca del texto, lo que le dará al lector una postura crítica, promoviendo la investigación. Esta dimensión es denominada por Cassany (2013) como la “lectura detrás de las líneas”.\n
+
+    </string>
+
+    <string name="el_ensayo">
+
+        Ya que en este proyecto leeremos ensayos, es importarte tener claro qué es un ensayo. A juicio de Briñez (2007), el ensayo se entiende como una “hibridación de ciencia y poesía” (p. 181) dentro de la escritura científica, además, como un texto que demanda alta exigencia en su escritura por la combinación ideológica y poética. La parte ideológica se presenta —según Briñez (2007)— “como una concepción de la realidad desde una perspectiva individual” (p. 181) en la cual prima la argumentación y la muestra de razones para defender una postura. Gracias a esta función ideológica un ensayista intenta “enredar” al lector para compartir su opinión. Por otro lado, la parte poética se refiere al estilo escritural del ensayista, pues el uso adecuado del lenguaje es definitivo para lograr el objetivo del ensayo que es convencer.\n\n
+
+        A lo anterior, Vásquez (2004) agrega que es “una forma de expresión ancilar, es decir, que en él hay un intercambio de servicios entre la literatura y otras disciplinas del pensamiento escrito” (p. 13), ya que este contiene una gran “dimensión estética” respecto al estilo en el que es escrito; de igual importancia es la “dimensión lógica” que este tipo de texto presenta. El ensayo puede referirse a temas literarios, aunque en la mayoría de casos este se presenta más para exponer ideas de otras disciplinas como la ciencia, la política, la historia, etc.\n\n
+
+        El ensayo sirve para presentar las ideas de manera crítica, por ello Vásquez (2004) asegura que “abandonan toda posición de imparcialidad e impersonalidad” (p. 14), pues lo que se pretende es presentar una postura acerca de un tema, así que el ensayista transforma cualquier tema en “problema intimo e individual” (Vásquez, 2004, p. 14) eso sí, sin dejar de lado la estética que este tipo de texto requiere para hacerlo aún más convincente.\n\n
+
+        Asimismo, con el ensayo un lector puede identificar el punto de vista y pensamiento del autor acerca de cualquier asunto, (político económico, social, etc.) ya que, lo que realmente le da relevancia a la voz del autor en el ensayo son sus argumentos y la forma en que los presenta al lector para que este le dé la razón y no encuentre contradicción. Por eso, gracias a la argumentación se conocen las fortalezas y habilidades de un escritor, porque, finalmente, en un ensayo el escritor es la primera y única voz, por lo tanto, tiene la “obligación” de defenderse a sí mismo del lector.\n\n
+
+        Fernando Vásquez, autor del libro Pregúntele al ensayista (2004) sugiere en su capítulo “El ensayo”, lo que se debería saber de un ensayo, para su composición y comprensión:\n\n
+
+        1.	La potencia y la dificultad radica en que el ensayo tiene doble esencia, pues es arte y ciencia.\n\n
+
+        2.	Un ensayo es una reflexión, no un comentario, aunque son reflexiones de otros, por ello el ensayo se desarrolla a través de los argumentos.\n\n
+
+        3.	Un ensayo es coherente, todas sus ideas se encuentran conectadas entre sí, están tejidas de manera organizada.\n\n
+
+        4.	Es necesario e importante el buen uso de los conectores, estos y los signos de puntuación le dan ritmo.\n\n
+
+        5.	Hay dos tipos de ensayos: objetivos y subjetivos.\n\n
+
+        6.	Debe tener estilo propio del autor, una “marca de estilo”.\n\n
+
+        7.	Es importante conocer otros autores y sus ensayos, para tener un “abrebocas”.\n\n
+
+        8.	Cosas que deben tenerse en cuenta: ideas base, fuentes que ayudarán a sustentar, tener claro que se va a decir en cada párrafo, la extensión aproximada del texto.\n\n
+
+        9.	No se aconseja dividir el ensayo con subtítulos pues todo debe encontrarse relacionado.\n\n
+
+        10.	Es de gran utilidad para el desarrollo del pensamiento, gracias a su capacidad de defender posturas críticas (pp. 41-46).\n
+
+
+    </string>
+
+
+    <string name="EnsayoUno">
+
+        Me escribe un amigo desde Chile diciéndome que se
+        ha encontrado allí con algunos que, refiriéndose a mis
+        escritos, le han dicho: "Y bien, en resumidas cuentas,
+        ¿cuál es la religión de este señor Unamuno?" Pregunta
+        análoga se me ha dirigido aquí varias veces. Y voy a ver
+        si consigo no contestarla, cosa que no pretendo, sino
+        plantear algo mejor el sentido de la tal pregunta.\n\n
+
+
+        Tanto los individuos como los pueblos de espíritu
+        perezoso - y cabe pereza espiritual con muy fecundas
+        actividades de orden económico y de otros órdenes
+        análogos - propenden al dogmatismo, sépanlo o no lo
+        sepan, quiéranlo o no, proponiéndose o sin
+        proponérselo. La pereza espiritual huye de la posición
+        crítica o escéptica.\n\n
+
+        Escéptica digo, pero tomando la voz escepticismo en
+        su sentido etimológico y filosófico, porque escéptico no
+        quiere decir el que duda, sino el que investiga o rebusca,
+        por oposición al que afirma y cree haber hallado. Hay
+        quien escudriña un problema y hay quien nos da una
+        fórmula, acertada o no, como solución de él.\n\n
+
+        En el orden de la pura especulación filosófica, es una
+        precipitación el pedirle a uno soluciones dadas, siempre
+        que haya hecho adelantar el planteamiento de un
+        problema. Cuando se lleva mal un largo cálculo, el borrar
+        lo hecho y empezar de nuevo significa un no pequeño
+        progreso. Cuando una casa amenaza ruina o se hace
+        completamente inhabitable, lo que procede es
+        derribarla, y no hay que pedir se edifique otra sobre ella.
+        Cabe, sí, edificar la nueva con materiales de la vieja,
+        pero es derribando antes ésta. Entretanto, puede la gente
+        albergarse en una barraca, si no tiene otra casa, o dormir a campo raso.\n\n
+
+        Y es preciso no perder de vista que para la práctica de nuestra vida, rara vez tenemos
+        que esperar a las soluciones científicas definitivas. Los hombres han vivido y viven sobre
+        hipótesis y explicaciones muy deleznables, y aun sin ellas. Para castigar al delincuente no se
+        pusieron de acuerdo sobre si éste tenía o no libre albedrío, como para estornudar no
+        reflexiona uno sobre el daño que puede hacerle el pequeño obstáculo en la garganta que le
+        obliga al estornudo.\n\n
+
+        Los hombres que sostienen que de no creer en el castigo eterno del infierno serían
+        malos, creo, en honor de ellos, que se equivocan. Si dejaran de creer en una sanción de
+        ultratumbas no por eso se harían peores, sino que entonces buscarían otra justificación
+        ideal a su conducta. El que siendo bueno cree en un orden trascendente, no tanto es bueno
+        por creer en él cuanto que cree en él por ser bueno. Proposición ésta que habrá de parecer
+        oscura o enrevesada, estoy de ello cierto, a los preguntones de espíritu perezoso.\n\n
+
+        Y bien, se me dirá, "¿Cuál es tu religión?" Y yo responderé: mi religión es buscar la
+        verdad en la vida y la vida en la verdad, aun a sabiendas de que no he de encontrarlas
+        mientras viva; mi religión es luchar incesante e incansablemente con el misterio; mi religión
+        es luchar con Dios desde el romper del alba hasta el caer de la noche, como dicen que con Él
+        luchó Jacob. No puedo transigir con aquello del Inconocible - o Incognoscible, como escriben
+        los pedantes - ni con aquello otro de "de aquí no pasarás". Rechazo el eterno ignorabimus. Y
+        en todo caso, quiero trepar a lo inaccesible.\n\n
+
+        "Sed perfectos como vuestro Padre que está en los cielos es perfecto", nos dijo el Cristo,
+        y semejante ideal de perfección es, sin duda, inasequible. Pero nos puso lo inasequible
+        como meta y término de nuestros esfuerzos. Y ello ocurrió, dicen los teólogos, con la gracia.
+        Y yo quiero pelear mi pelea sin cuidarme de la victoria. ¿No hay ejércitos y aun pueblos que
+        van a una derrota segura? ¿No elogiamos a los que se dejaron matar peleando antes que
+        rendirse? Pues ésta es mi religión.\n\n
+
+        Ésos, los que me dirigen esa pregunta, quieren que les dé un dogma, una solución en
+        que pueda descansar el espíritu en su pereza. Y ni esto quieren, sino que buscan poder
+        encasillarme y meterme en uno de los cuadriculados en que colocan a los espíritus, diciendo
+        de mi: es luterano, es calvinista, es católico, es ateo, es racionalista, es místico, o cualquier
+        otro de estos motes, cuyo sentido claro desconocen, pero que les dispensa de pensar más. Y
+        yo no quiero dejarme encasillar, porque yo, Miguel de Unamuno, como cualquier otro
+        hombre que aspire a conciencia plena, soy una especie única. "No hay enfermedades, sino
+        enfermos", suelen decir algunos médicos, y yo digo que no hay opiniones, sino opinantes.\n\n
+
+        En el orden religioso apenas hay cosa alguna que tenga racionalmente resuelta, y como
+        no la tengo, no puedo comunicarla lógicamente, porque sólo es lógico y transmisible lo
+        racional. Tengo, sí, con el afecto, con el corazón, con el sentimiento, una fuerte tendencia al
+        cristianismo sin atenerme a dogmas especiales de esta o de aquella confesión cristiana.
+        Considero cristiano a todo el que invoca con respeto y amor el nombre de Cristo, y me
+        repugnan los ortodoxos, sean católicos o protestantes - éstos suelen ser tan intransigentes
+        como aquéllos - que niegan cristianismo a quienes no interpretan el Evangelio como ellos.
+        Cristiano protestante conozco que niega el que los unitarios sean cristianos.\n\n
+
+        Confieso sinceramente que las supuestas pruebas racionales - la ontológica, la
+        cosmológica, la ética, etcétera - de la existencia de Dios no me demuestran nada; que
+        cuantas razones se quieren dar de que existe un Dios me parecen razones basadas en
+        paralogismos y peticiones de principio. En esto estoy con Kant. Y siento, al tratar de esto, no
+        poder hablar a los zapateros en términos de zapatería.\n\n
+
+        Nadie ha logrado convencerme racionalmente de la existencia de Dios, pero tampoco de
+        su no existencia; los razonamientos de los ateos me parecen de una superficialidad y futileza
+        mayores aún que los de sus contradictores. Y si creo en Dios, o, por lo menos, creo creer en
+        Él, es, ante todo, porque quiero que Dios exista, y después, porque se me revela, por vía
+        cordial, en el Evangelio y a través de Cristo y de la Historia. Es cosa de corazón.\n\n
+
+        Lo cual quiere decir que no estoy convencido de ello como lo estoy de que dos y dos
+        hacen cuatro.\n\n
+
+        Si se tratara de algo en que no me fuera la paz de la conciencia y el consuelo de haber
+        nacido, no me cuidaría acaso del problema; pero como en él me va mi vida toda interior y el
+        resorte de toda mi acción, no puedo aquietarme con decir: ni sé ni puedo saber. No sé,
+        cierto es; tal vez no pueda saber nunca, pero "quiero" saber. Lo quiero, y basta.\n\n
+
+        Y me pasaré la vida luchando con el misterio y aun sin esperanza de penetrarlo, porque
+        esa lucha es mi alimento y es mi consuelo. Sí, mi consuelo. Me he acostumbrado a sacar
+        esperanza de la desesperación misma. Y no griten ¡Paradoja! los mentecatos y los
+        superficiales.\n\n
+
+        No concibo a un hombre culto sin esta preocupación, y espero muy poca cosa en el
+        orden de la cultura - y cultura no es lo mismo que civilización - de aquellos que viven
+        desinteresados del problema religioso en su aspecto metafísico y sólo lo estudian en su
+        aspecto social o político. Espero muy poco para el enriquecimiento del tesoro espiritual del
+        género humano de aquellos hombres o de aquellos pueblos que por pereza mental, por
+        superficialidad, por cientificismo, o por lo que sea, se apartan de las grandes y eternas
+        inquietudes del corazón. No espero nada de los que dicen: "¡No se debe pensar en eso!";
+        espero menos aún de los que creen en un cielo y un infierno como aquel en que creíamos de
+        niños, y espero todavía menos de los que afirman con la gravedad del necio: "Todo eso no
+        son sino fábulas y mitos; al que se muere lo entierran, y se acabó". Sólo espero de los que
+        ignoran, pero no se resignan a ignorar; de los que luchan sin descanso por la verdad y ponen
+        su vida en la lucha misma más que en la victoria.\n\n
+
+
+        Y lo más de mi labor ha sido siempre inquietar a mis prójimos, removerles el poso del
+        corazón, angustiarlos, si puedo. Lo dije ya en mi Vida de Don Quijote y Sancho, que es mi
+        más extensa confesión a este respecto. Que busquen ellos, como yo busco; que luchen,
+        como lucho yo, y entre todos algún pelo de secreto arrancaremos a Dios, y, por lo menos,
+        esa lucha nos hará más hombres, hombres de más espíritu.\n\n
+
+        Para esta obra - obra religiosa - me ha sido menester, en pueblos como estos pueblos de
+        lengua castellana, carcomidos de pereza y de superficialidad de espíritu, adormecidos en la
+        rutina del dogmatismo católico o del dogmatismo librepensador o cientificista, me ha sido
+        preciso aparecer unas veces impúdico e indecoroso, otras duro y agresivo, no pocas
+        enrevesado y paradójico. En nuestra menguada literatura apenas se le oía a nadie gritar
+        desde el fondo del corazón, descomponerse, clamar. El grito era casi desconocido. Los
+        escritores temían ponerse en ridículo. Les pasaba y les pasa lo que a muchos que soportan
+        en medio de la calle una afrenta por temor al ridículo de verse con el sombrero por el suelo
+        y presos por un polizonte. Yo, no; cuando he sentido ganas de gritar, he gritado. Jamás me
+        ha detenido el decoro. Y ésta es una de las cosas que menos me perdonan estos mis
+        compañeros de pluma, tan comedidos, tan correctos, tan disciplinados hasta cuando
+        predican la incorrección y la indisciplina. Los anarquistas literarios se cuidan, más que de
+        otra cosa, de la estilística y de la sintaxis. Y cuando desentonan lo hacen entonadamente;
+        sus desacordes tiran a ser armónicos.\n\n
+
+        Cuando he sentido un dolor, he gritado, y he gritado en público. Los salmos que figuran
+        en mi volumen de Poesías no son más que gritos del corazón, con los cuales he buscado
+        hacer vibrar las cuerdas dolorosas de los corazones de los demás. Si no tienen esas cuerdas,
+        o si las tienen tan rígidas que no vibran, mi grito no resonará en ellas, y declararán que eso
+        no es poesía, poniéndose a examinarlo acústicamente. También se puede estudiar
+        acústicamente el grito que lanza un hombre cuando ve caer muerto de repente a su hijo, y
+        el que no tenga ni corazón ni hijos, se queda en eso.\n\n
+
+        Esos salmos de mis Poesías, con otras varias composiciones que allí hay, son mi religión,
+        y mi religión cantada, y no expuesta lógica y razonadamente. Y la canto, mejor o peor, con la
+        voz y el oído que Dios me ha dado, porque no la puedo razonar. Y el que vea raciocinios y
+        lógica, y método y exégesis, más que vida, en esos mis versos porque no hay en ellos faunos,
+        dríades, silvanos, nenúfares, "absintios" (o sea ajenjos), ojos glaucos y otras garambainas
+        más o menos modernistas, allá se quede con lo suyo, que no voy a tocarle el corazón con
+        arcos de violín ni con martillo.\n\n
+
+        De lo que huyo, repito, como de la peste, es de que me clasifiquen, y quiero morirme
+        oyendo preguntar de mí a los holgazanes de espíritu que se paren alguna vez a oírme: "Y
+        este señor, ¿qué es?" Los liberales o progresistas tontos me tendrán por reaccionario y
+        acaso por místico, sin saber, por supuesto, lo que esto quiere decir, y los conservadores y
+        reaccionarios tontos me tendrán por una especie de anarquista espiritual, y unos y otros,
+        por un pobre señor afanoso de singularizarse y de pasar por original y cuya cabeza es una
+        olla de grillos. Pero nadie debe cuidarse de lo que piensen de él los tontos, sean progresistas
+        o conservadores, liberales o reaccionarios.\n\n
+
+        Y como el hombre es terco y no suele querer enterarse y acostumbra después que se le
+        ha sermoneado cuatro horas a volver a las andadas, los preguntones, si leen esto, volverán a
+        preguntarme: "Bueno; pero ¿qué soluciones traes?" Y yo, para concluir, les diré que si
+        quieren soluciones, acudan a la tienda de enfrente, porque en la mía no se vende semejante
+        artículo. Mi empeño ha sido, es y será que los que me lean, piensen y mediten en las cosas
+        fundamentales, y no ha sido nunca el de darles pensamientos hechos. Yo he buscado
+        siempre agitar, y, a lo sumo, sugerir, más que instruir. Si yo vendo pan, no es pan, sino
+        levadura o fermento.\n\n
+
+        Hay amigos, y buenos amigos, que me aconsejan me deje de esta labor y me recoja a
+        hacer lo que llaman una obra objetiva, algo que sea, dicen, definitivo, algo de construcción,
+        algo duradero. Quieren decir algo dogmático. Me declaro incapaz de ello y reclamo mi
+        libertad, mi santa libertad, hasta la de contradecirme, si llega el caso. Yo no sé si algo de lo
+        que he hecho o de lo que haga en lo sucesivo habrá de quedar por años o por siglos después
+        que me muera; pero sé que si se da un golpe en el mar sin orillas las ondas en derredor van
+        sin cesar, aunque debilitándose. Agitar es algo. Si merced a esa agitación viene detrás otro
+        que haga algo duradero, en ello durará mi obra.\n\n
+
+        Es obra de misericordia suprema despertar al dormido y sacudir al parado, y es obra de
+        suprema piedad religiosa buscar la verdad en todo y descubrir dondequiera el dolo, la
+        necedad y la inepcia.\n\n
+
+        Ya sabe, pues, mi buen amigo el chileno lo que tiene que contestar a quien le pregunte
+        cuál es mi religión. Ahora bien; si es uno de esos mentecatos que creen que guardo ojeriza a
+        un pueblo o una patria cuando le he cantado las verdades a alguno de sus hijos irreflexivos,
+        lo mejor que puede hacer es no contestarles.\n\n
+
+    </string>
+
+    <string name="EnsayoDos">
+
+        En el capítulo anterior hemos tratado de bosquejar el fondo; ahora vamos a apuntar las
+        figuras. Estamos todos reunidos en torno de una mesa anchurosa, en el Casino, metidos en
+        un cuarto cerrado, frente a frente, mano a mano, dispuestos a charlar con espacio.\n\n
+
+        — Vamos a ver —digo yo, dirigiéndome a Pedro, que se encuentra a mi izquierda—.
+        Vamos a ver; yo deseo que ustedes me digan lo que piensan con franqueza sobre esta
+        situación.\n\n
+
+        Pedro considera con rápida mirada a los demás; los demás son Juan, Pepe Luis, Manuel,
+        Ginés y Antonio. Todos van vestidos con sus chaquetillas ceñidas, livianas, sutiles, de
+        blanco lienzo; todos tienen las caras tostadas, escuálidas, fláccidas, con los ojos hundidos;
+        todos se hallan sentados con posturas un poco rígidas, con los sombreros puestos sobre los
+        muslos. Y Pedro —un viejo de ojos claros, vivos, elocuentes— se ha vuelto hacia mí, ha
+        dado una vuelta entre sus manos a su chapeo, y ha dicho:\n\n
+
+        — Esto, ya lo ve usted, no puede estar peor...\n\n
+
+        — Lo he visto —replico yo—; lo estoy viendo; pero yo quiero que me digan cómo viven en
+        la presente situación; ustedes tienen mujer, tienen hijos. ¿De qué manera se gobiernan en
+        sus casas en este trance?\n\n
+
+        Pedro ha callado otro breve momento.\n\n
+
+        — Hoy —ha replicado— no tenemos jornal; los trabajadores de Lebrija estamos repartidos
+        entre los propietarios; estos propietarios dan diariamente a cada jornalero sesenta céntimos.
+        Con estos sesenta céntimos ya supondrá usted que no podemos pasar; con estos sesenta
+        céntimos compramos pan, lo cocemos en agua, y eso es lo que comemos.\n\n
+
+        — Sí —observo yo—; de ese modo es imposible continuar. Ustedes necesitan un jornal.
+        ¿Qué jornal ganan ustedes en tiempos normales en Lebrija?\n\n
+
+        — En tiempos normales —replica Pepe Luis— ganamos tres reales y una telera de pan.\n\n
+
+        — ¿Una telera de pan? —pregunto yo—. ¿Qué es una telera?\n\n
+
+        — Una telera —dice Manuel— son tres libras.\n\n
+
+        — Además —añade Pedro—, nos dan media panilla de aceite y un poco de vinagre.\n\n
+
+        — ¿Cuánto es una panilla? —torno a preguntar yo—.\n\n
+
+        — Una panilla —dice Pedro— es la centésima parte de una arroba.\n\n
+
+        — ¿Cuántas libras tiene la arroba de aquí?\n\n
+
+        — La arroba de aquí tiene veinticinco libras.\n\n
+
+        — Perfectamente —digo yo—, perfectamente; pero con tres reales, una telera de pan,
+        media panilla de aceite y un poco de vinagre, creo que no se puede vivir.\n\n
+
+        — Y tenga usted en cuenta —añade Pedro— que no tenemos este jornal durante todo el
+        año; muy afortunado puede considerarse el que de los doce meses trabaja seis.\n\n
+
+        — Entonces —digo yo—, ¿cuánto creen ustedes que debe ser el jornal mínimo diario?
+        Pedro, Juan, Pepe Luis, Manuel, Ginés, Antonio, ¿quieren ustedes que hagamos la cuenta
+        por la menuda de lo que ustedes necesitan para comer?\n\n
+
+        Todos sonríen un poco.\n\n
+
+        — ¡Vamos allá! —exclama Pedro—.\n\n
+
+        —¡Ea, lo va usté a ve! —gritan Juan, Pepe Luis, Ginés, Manuel y Antonio—.\n\n
+
+        — Ante todo —digo yo—, supongamos que la familia de usted, Pedro, se compone de
+        usted, de su mujer y de tres chicos.\n\n
+
+        — ¡Esa es la familia que tengo precisamente! —exclama Pedro—.\n\n
+
+        — En ese caso —replico yo—, no tenemos que imaginar nada. Usted, Pedro, necesita pan.\n\n
+
+        ¿Cuánto pan necesita usted todos los días?\n\n
+
+        — Necesitaré tres kilos. ¿Le parece a usted mucho?\n\n
+
+        Yo me apresuro a protestar.\n\n
+
+        — No, no, Pedro; de ningún modo; me parecen muy bien tres kilos\n\n
+
+        — Tres kilos los contaremos a treinta y seis céntimos el kilo.\n\n
+
+        — ¡Y ha de ser morenito, morenito pa no exagerarlo! —observa Pepe Luis—.\n\n
+
+        — Aceite, ¿cuánto?\n\n
+
+        — Dos panillas, o sea un real.\n\n
+
+        — Habichuelas, ¿cuántas?\n\n
+
+        — Un kilo, que cuesta treinta y seis céntimos.\n\n
+
+        — ¿Patatas?\n\n
+
+        — Patatas le pondremos diez céntimos.\n\n
+
+        — ¿Carne?\n\n
+
+        Pedro se detuvo un momento; Juan, Pepe Luis, Manuel, Ginés y Antonio sonríen.\n\n
+
+        — Carne —dice al fin lentamente Pedro—, carne no la probamo.\n\n
+
+        — ¿Vino?\n\n
+
+        Se hace un nuevo silencio y surgen nuevas sonrisas.\n\n
+
+        — Vino —dice Pepe Luis—, de ca tre meses, un vasillo.\n\n
+
+        — Pues pasemos al alquiler de la casa —digo yo—.\n\n
+
+        — Los alquileres suben a catorce, dieciséis y dieciocho reales mensuales —prosigue
+        Pedro—. Pongamos por la casa quince céntimos diarios.\n\n
+
+        — Veamos ahora la ropa. ¿Qué gastan ustedes en ropa?\n\n
+
+        — Ya lo está usté viendo.\n\n
+
+        Yo veo las chaquetillas ligeras, astrosas. Los pantalones raídos, las botas despedazadas, los
+        sombreros grasientos, agujereados.\n\n
+
+        — ¿Cuánto quiere usted que pongamos para la ropa? —vuelvo yo a preguntar—.\n\n
+
+        — Pongamos —dice Pedro— treinta céntimos diarios.\n\n
+
+        — ¿Y tabaco?\n\n
+
+        — De tabaco, diez céntimos.\n\n
+
+        — ¿Está ya todo? ¿No queda el gasto de la barbería y el de la limpieza de la ropa?\n\n
+
+        — Por la barbería no pondremos nada; nos afeitamos nosotros mismos. En cuanto al lavado
+        de la ropa, ¿le parece a usté que destinemos cinco céntimos para jabón y que añadamos
+        otros diez para leña con que guisar?\n\n
+
+        — Está bien —agrego yo—; vamos ahora a sumar.\n\n
+
+        Y la suma arroja un total de dos pesetas cuarenta y nueve céntimos.\n\n
+
+        — Pedro, Juan, Pepe Luis, Manuel, Ginés, Antonio —les digo a mis amigos—: las cuentas
+        que acabamos de echar no pueden ser tachadas de escandalosas; están calculados todos los
+        gastos con bastante modestia. Y bien: si usted gana tres reales de jornal y necesitan, tirando
+        por lo bajo, nueve reales y veinticuatro céntimos, ¿qué hemos de hacer? ¿Cómo vamos a
+        resolver este conflicto? ¿Qué ideas son las de ustedes? Yo agradecería que ustedes me
+        hablaran con entera confianza, como a un compañero. Las obras de la carretera que todos
+        esperamos no harán sino aplacar esta angustia presente; el problema tornará a resurgir.
+        Ustedes han pensado muchas veces sobre él: ¿qué creen ustedes que debemos hacer?\n\n
+
+        Pedro, Juan, Pepe, Antonio, Ginés, Manuel y Pepe Luis se han mirado en silencio. ¿Tenían
+        reparo en exponer su escondido criterio ante un desconocido? Y de pronto este Antonio,
+        que ha permanecido callado durante toda la conferencia, ha levantado la cabeza y ha
+        comenzado a hablar. Antonio es uno de estos hombres tímidos, apocados, encogidos, que
+        callan, que conllevan todo resignados, pacientes, y que de pronto, cuando menos lo
+        esperamos, se yerguen en actitudes bravías y tienen en sus palabras y en sus obras una
+        audacia y un ímpetu estupendos. Yo quiero que temáis y respetéis a estos hombres que a
+        vosotros os parecen insignificantes y opacos, a estos hombres que pasan inadvertidos por la
+        vida; ellos hacen las cosas grandes, ellos son tremendos, ellos guían e inspiran a las
+        muchedumbres en las revoluciones.\n\n
+
+        — En Lebrija —ha dicho Antonio— existen grandes extensiones de terrenos incultos; esos
+        terrenos son los que creemos nosotros que el Estado debe expropiar a sus propietarios y
+        vendérnoslos a nosotros a largos plazos. Hoy hay en el pueblo pequeñas parcelas de tierra
+        arrendadas a los labriegos; pero estos arrendamientos no sirven sino para enriquecer a los
+        intermediarios. Yo, por ejemplo, llevo una fanega de tierra arrendada; yo pago por ella
+        treinta y una pesetas y veinticinco céntimos. La persona a quien yo entrego esta cantidad no
+        es el dueño de la tierra; esta persona a su vez tiene arrendado este pedazo y entrega por él al
+        verdadero propietario tan sólo once pesetas. Y así, lo que va de diferencia entre lo que yo
+        entrego y lo que él entrega, es lo que yo creo que se me cobra a mí injustamente. Y éste no
+        es un caso extraordinario; he de advertir a usted que ya en Lebrija se va generalizando este
+        sistema, y que los propietarios van arrendando sus tierras a unos pocos acaparadores, que, a
+        su vez, las subarriendan a los pequeños terratenientes. Y no es esto lo más grave de todo: lo
+        más grave —y fíjese bien en ello— es que cuando se rotura una dehesa y es arrendada a un
+        jornalero una parcela, este jornalero la cultiva con todo esmero, la limpia con cuidado, la
+        hace producir lo más posible, y entonces, cuando se halla en este estado, el dueño se la
+        quita al jornalero para arrendarla en un precio mayor a otro solicitante; es decir, que el
+        labriego ha trabajado durante unos años para mejorar unas tierras, y que cuando esta mejora
+        se ha realizado, resulta que sólo sirve para que el dueño de la tierra se enriquezca...\n\n
+
+        Antonio ha callado un instante.\n\n
+
+        — Pero, Antonio —le digo yo—, aun cuando esos terrenos incultos se expropiaran y
+        repartieran, ¿qué iban ustedes a hacer con ellos? ¿No necesitarían ustedes medios para
+        comenzar a cultivarlos?\n\n
+
+        — No se nos oculta —contesta Antonio—; nosotros sabemos que el Estado no puede
+        acometer esta reforma sin fomentar a la par el crédito agrícola. Faltan Cajas y Bancos que
+        suministren a bajo precio dinero al labrador. Hoy, en Lebrija, por ejemplo, no hay ni un
+        propietario que facilite un duro a un jornalero, fiado en sólo la persona de éste; el crédito
+        directo no existe; el trabajador necesita que le abone una persona de capital; para tomar
+        veinticinco pesetas es preciso que tenga por lo menos bienes por valor de quinientas el que
+        ha firmado. Y después hay que contar con que la tasa del préstamo asciende, como regla
+        general, a un veinticinco por ciento, y que hay que pagar al corredor y convidarlo, y que es
+        preciso gastar también los veinticinco céntimos del documento.\n\n
+
+        Yo oigo atentamente cuanto me dice Antonio; sus compañeros asienten a sus palabras.\n\n
+
+        — Y esto que ustedes me dicen a mí ahora —resumo yo—, ¿lo han pedido ustedes alguna
+        vez en público?\n\n
+
+        — ¡Mil veces, mil veces! —gritan todos—.\n\n
+
+        Y Antonio, más vehemente, más exaltado:\n\n
+
+        — Cuando nosotros pedimos esto, cuando nosotros solicitamos un permiso para celebrar
+        una reunión, se nos mandan cuarenta o cincuenta guardias civiles. El Gobierno no conoce
+        otro medio de solucionar la cuestión social. No se escuchan nuestros razonamientos; no se
+        contesta a ellos; se nos enseñan los cañones de los fusiles, y con eso creen haber cumplido
+        su misión ante la sociedad los ministros.\n\n
+
+        Y luego, con voz más queda, más tranquila:\n\n
+
+        — Nosotros estamos ya cansados.\n\n
+
+        Ya están cansados los buenos labriegos de Lebrija; ya están cansados los labriegos de toda
+        Andalucía; ya están cansados los labriegos, los obreros, los comerciantes, los industriales
+        de toda España. Ya estamos cansados los que movemos la pluma para pedir un poco de
+        sinceridad, de buena fe, de amor, de reflexión a los hombres que nos gobiernan. ¿Qué va a
+        venir después de este cansancio?\n\n
+
+        ¿No es ésta una interrogación formidable?\n\n
+
+    </string>
+
+    <string name="EnsayoTres">
+
+        Esta mañana, a las ocho, don Luis ha venido a buscarme. ¿No conocéis a don Luis? ¿No
+        conocéis a este hombre tan inteligente, tan discreto, tan bueno, tan abnegado, tan afable?
+        Don Luis es alto, cenceño, delgado ; está un poco pálido; anda un poco encorvado; tose de
+        rato en rato un poco. Y cuando se detiene en un corro de convecinos, en su marcha rápida,
+        afanosa, febril, a través de las calles del pueblo, don Luis da unos fuertes resoplidos, se
+        pasa la mano por la frente, atusa ligeramente su tupé y comienza a hablar con voz recia,
+        imperativa, pintoresca, que poco a poco va apagándose, hasta que don Luis calla de pronto,
+        se lleva la mano al pecho y suspira con un leve suspiro:\n\n
+
+        — Señor Azorín, ¿estamos ya? —Estamos ya, señor don Luis—.\n\n
+
+        Y entonces comenzamos a andar por las calles anchas del pueblo; las saledizas, espaciosas
+        rejas verdes, sobresalen en las aceras.\n\n
+
+        Luego nos internamos en las calles de los barrios obreros. Y hemos entrado en un patizuelo
+        blanco, empedrado, en que resonaban nuestros pasos.\n\n
+
+        — ¡Gente! —ha gritado don Luis— ¡El médico!\n\n
+
+        Seis u ocho puertas se abren en torno de todo el patio; levantamos la cortina que pende ante
+        una de ellas. Y en este punto por todas las demás puertas han ido saliendo los moradores de
+        la casa. Y yo he visto estos rostros flaccidos, exangües, distendidos, negrosos, de los
+        labriegos. Y estas mozas escuálidas, encogidas en un rincón, como acobardadas, tal vez con
+        una flor mustia entre el cabello crespo. Y estas viejecitas, acartonadas, avellanadas; estas
+        viejecitas andaluzas que no comen nada jamás, jamás, jamás, estas viejecitas que juntan sus
+        manos sarmentosas y suspiran: "¡Vigen de Came! ¡Vigen de Came!". Don Luis, rápido,
+        afectuoso, va viéndolos, examinándolos a todos; entra en un cuchitril ; sale de otro; da a un
+        mozo una palmada sobre el hombro; pasa la mano por la barbilla a un niño. Y después,
+        cuando hemos salido de esta casa, ya en la calle, el buen doctor se quita su sombrero, se
+        pasa la mano por la frente, se la lleva después al pecho y da un hondo suspiro.\n\n
+
+        — Señor doctor —le digo yo—, esto es verdaderamente terrible.\n\n
+
+        — Amigo Azorín —me dice él, mirándome con sus anchos ojos entristecidos—, esto no
+        puede ser. Y ya hemos puesto nuestras plantas en otro patio blanco y empedrado.\n\n
+
+        — ¡Gente! —grita don Luis—. ¡El médico!\n\n
+
+        Y otra vez vemos las caras angustiadas, trágicas, y percibimos las respiraciones fatigosas, y
+        oímos los plañidos sordos del dolor, y contemplamos las viejecitas acurrucadas en un
+        rincón, que exclaman: “¡Vigen de Came! ¡Vigen de Came!”. Don Luis parece que entre
+        esta gente, durante un breve momento, hace un esfuerzo supremo, enorme; diríase que trata
+        de iluminarse a sí mismo; su charla es ligera, amable; va presto de una parte a otra; sonríe;
+        da esperanzas. Mas, a poco, otra vez fuera, toda su energía cae súbitamente; sus ojos se
+        apagan; su palabra se torna lenta y opaca. ¿Qué hay en este excelente, en este discretísimo
+        don Luis que os hace pensar en un esfuerzo que fracasa, que no llega a su máximum? ¿Qué
+        hay en este hombre que os recuerda esas vidas que han debido tener otros más anchos y
+        luminosos destinos y que viven, sin embargo, oscurecidos, decaídos en un ambiente que no
+        es el suyo?\n\n
+
+        — Don Luis —grito yo—, esto es terrible.\n\n
+
+        — Señor Azorín —me dice don Luis—, yo ya no puedo más; yo estoy enfermo. Yo no
+        puedo continuar haciendo por más tiempo este esfuerzo que hago cada vez que entro en una
+        de estas casas.\n\n
+
+        Y después, tras una breve pausa:\n\n
+
+        — Todos estos hombres, todos estos enfermos que hemos visto, son pobres: necesitan
+        carne, caldo, leche. ¿Ve usted la ironía aterradora que hay en recomendar estas cosas a
+        quien no dispone ni aun para comprar pan del más negro? Y esto ha de repetirse todos los
+        días en todas las casas forzosamente, fatalmente... Y la miseria va creciendo,
+        extendiéndose, invadiéndolo todo: las ciudades, los campos, las aldeas. Casi todos los
+        enfermos que acabamos de ver, señor Azorín, son tuberculosos ; éste es el mal de
+        Andalucía. No se come; la falta de nutrición trae la anemia; la anemia acarrea la tisis. En
+        Madrid la mortalidad es del 34 por 100; en Sevilla rebasa esta cifra; en este pueblo donde
+        yo ejerzo, en Lebrija, pasa del 40 por 100.\n\n
+
+        Hemos salido en nuestro paseo a las afueras de la ciudad; ante nosotros se extiende una
+        llanura sembradiza de un color verde mustio, apagado, amarillento a trechos; en la línea del
+        horizonte, un vapor que recorre el Guadalquivir pone sus sutiles manchones negros sobre el
+        cielo radiante.\n\n
+
+        — Yo no sé —prosigue el buen doctor— qué solución tendrá a la larga este problema; lo
+        cierto, lo innegable, es que de este modo es imposible vivir. No vivimos: morimos. Le he
+        dado a usted el promedio de la mortalidad en este pueblo; ahora quiero especificar un poco
+        más.\n\n
+
+        En 1899 ocurrieron aquí 461 fallecimientos. ¿Sabe usted de éstos cuántos corresponden a la
+        tuberculosis? Cuarenta y seis, a más de 161 causados por enfermedades del aparato
+        digestivo, es decir, por escasa o malsana alimentación. En 1900, entre 450 muertos, 44 son
+        tuberculosos y 164 de las demás enfermedades citadas. En 1901, las cifras son de 355, 38 y
+        82. En 1902 el horror sube de punto, puesto que de 341 fallecimientos, 60 son tísicos y 219
+        de miseria fisiológica. Y en 1903 mueren 384, entre los que se cuentan 55 tuberculosos y
+        133 de las demás enfermedades dichas...\n\n
+
+        — Señor doctor —le digo yo a don Luis—, esto es un verdadero espanto.\n\n
+
+        — Señor Azorín —me dice el doctor—, esta es la realidad que yo me veo obligado a
+        contemplar todos los días. Y sobre este dolor, en un medio tal de muerte y de ruina, ponga
+        usted este antagonismo, este odio, cada día más poderoso, más terrible, entre el obrero y el
+        patrono. Una honda diferencia separa a unos y a otros: el patrono rebaja y escatima en el
+        jornal cuanto puede; el obrero dilata cuanto puede los descansos en el trabajo y hace éste
+        con la mayor desgana. Las tierras son cultivadas someramente. Enormes extensiones
+        permanecen incultas, en tanto que los brazos están parados. Los señores viven hoscamente
+        metidos en sus casas; no quieren saber nada de los trabajadores; no tienen trato ni
+        comunicación con ellos. Y el odio de estos labriegos acorralados, exasperados, va
+        creciendo, creciendo. En 1903, cuando la huelga famosa de Lebrija, todos los sirvientes de
+        la ciudad se pusieron de parte de los huelguistas. Las mozas, instigadas y amenazadas por
+        los novios, abandonaron las casas; las abandonaron también estas criadas viejas que llevan
+        a nuestro lado quince o veinte años; las abandonaron asimismo las amas que amamantaban
+        a los niños de los señores...\n\n
+
+        — Es increíble lo que usted me cuenta, señor doctor.\n\n
+
+        — Es la verdad escueta, señor Azorín. No hay tregua ni piedad en esta lucha, de momento
+        en momento más enconada. Este obrero andaluz es bueno, es sencillo, es sumiso; pero en su
+        cerebro se han metido dos ideas únicas, fundamentales, que constituyen a la hora presente
+        toda su psicología; estas dos ideas son las siguientes: primera, "el amo es el enemigo";
+        segunda, "las leyes se hacen para los ricos". No busque usted más; será completamente
+        inútil. Ésta no es una demagogia razonada, libresca, literaria: es un nihilismo instintivo,
+        natural, espontáneo. Y es un nihilismo que fomenta el desvío de los señores, el desamparo
+        del Estado, la inanición, la muerte lenta y angustiosa que la tuberculosis trae a estos
+        cuerpos exangües...\n\n
+
+        — Doctor: cuando se tocan de cerca estas realidades, todas las esperanzas que pudiéramos
+        alimentar sobre una reconstrucción próxima de España desaparecen. Yo no he nacido en
+        esta tierra; yo conozco detalle por detalle sus claros y rientes pueblos de Levante. Y en
+        estos pueblos yo oigo lamentarse también todos los días a los compañeros de usted de los
+        estragos que la tuberculosis hace entre los labriegos.\n\n
+
+        El doctor ha tornado a mirarme un momento fijamente con sus ojos ensoñadores,
+        melancólicos. Después ha dicho, tendiéndome la mano:\n\n
+
+        — Y éste es el corolario desconsolador de nuestra charla: España es una nación agrícola; la
+        poca o mucha consistencia de nuestro pueblo está en los campos; consideramos, entre todas
+        las regiones españolas, como las más florecientes, las del Mediodía y las de Levante. Y los
+        labriegos de estas regiones, sostenes de la patria, hambrientos, consumidos, son diezmados
+        por la tuberculosis.\n\n
+
+        Yo no he contestado nada al buen doctor, que, alto, cenceño, un poco echado hacia delante,
+        se ha alejado rápidamente, afanoso, tosiendo, dando grandes zancadas, como huyendo de
+        un espanto, de una angustia invisibles...\n\n
+
+    </string>
+
+
+    <string name="introoo">
+
+    </string>
+
+
+    <string name="pre1_pa1_ta4">
+        1. ¿Cuál de los siguientes enunciados resume mejor el contenido del primer párrafo?
+    </string>
+
+    <string name="res1a_pa1_ta4">
+            a. La generación del 98 nació como una celebración al gran momento histórico que estaba atravesando España
+        </string>
+    <string name="res1b_pa1_ta4">
+            b. La generación del 98 pretendía crear un movimiento social con el fin de recuperar el poder en Cuba, Puerto Rico y Filipinas.
+        </string>
+    <string name="res1c_pa1_ta4">
+            c. El nacimiento de La generación de 98 se dio como una estrategia del gobierno para que la población española no entrara en pánico durante la crisis.
+        </string>
+    <string name="res1d_pa1_ta4">
+            d. La generación del 98 surgió a través de la literatura como una manera revolucionaria de demostrar la inconformidad de algunos pensadores.
+        </string>
+
+    <string name="pre2_pa1_ta4">
+       2. La frase en la que el texto describe la situación del país “como una España con brillo engañoso” se refiere a:
+    </string>
+
+    <string name="res2a_pa1_ta4">
+                a. Aparentemente el país se encontraba muy estable, pero en realidad estaba sufriendo una crisis de carácter político, social y económico.
+            </string>
+    <string name="res2b_pa1_ta4">
+                b. En apariencia los habitantes españoles eran muy poderosos, fuertes y felices, pero en realidad eran débiles y tenían miedo.
+            </string>
+    <string name="res2c_pa1_ta4">
+                c. Aparentemente en España había crisis y tragedia, pero en realidad, todo era parte del plan para convertirse de nuevo en una potencia mundial.
+            </string>
+    <string name="res2d_pa1_ta4">
+                d. En apariencia España tenía crisis política, social y económica, pero en realidad estaba viviendo uno de sus mejores momentos históricos.
+        </string>
+
+    <string name="pre3_pa1_ta4">
+        3. Los escritores de La generación del 98 usaban un lenguaje sencillo en sus escritos porque…
+    </string>
+
+    <string name="res3a_pa1_ta4">
+                a.	Necesitaban despistar al enemigo.
+            </string>
+    <string name="res3b_pa1_ta4">
+                b. Pretendían que sus textos fueran muy claros para que todas las personas los comprendieran.
+            </string>
+    <string name="res3c_pa1_ta4">
+                c. No estaban suficientemente educados para usar un léxico más complicado y formal.
+            </string>
+    <string name="res3d_pa1_ta4">
+                d. Debían utilizar muy poco papel ya que por la situación del país debían ahorrar.
+        </string>
+
+
+    <string name="pre1_pa2_ta4">
+       1. Según el texto, la temática de la mayoría de los textos de Azorín era
+    </string>
+
+    <string name="res1a_pa2_ta4">
+                    a. El constante desprecio que recibían los escritores de la época por parte de la comunidad.
+        </string>
+
+    <string name="res1b_pa2_ta4">
+                    b. El inconformismo ante las condiciones precarias de salud en España.
+        </string>
+
+    <string name="res1c_pa2_ta4">
+                    c. El desacuerdo con el maltrato a los campesinos.
+        </string>
+
+    <string name="res1d_pa2_ta4">
+                    d. La desconfianza que le generaban los políticos.
+        </string>
+
+    <string name="pre2_pa2_ta4">
+        2. A partir de lo descrito acerca del pensamiento de Miguel de Unamuno, es posible concluir que Unamuno fue un hombre
+    </string>
+
+    <string name="res2a_pa2_ta4">
+                    a. Entusiasta y sentimental.
+        </string>
+
+    <string name="res2b_pa2_ta4">
+                    b. Reflexivo y con angustias.
+        </string>
+
+    <string name="res2c_pa2_ta4">
+                    c. Miedoso y pasivo.
+        </string>
+
+    <string name="res2d_pa2_ta4">
+                    d. Seguro y fuerte.
+        </string>
+
+
+    <string name="pre1_pa3_ta4">
+        1. La frase: “es una práctica viva y vital donde leer sea un instrumento poderoso que permita repensar el mundo y reorganizar el pensamiento propio”
+    </string>
+
+    <string name="res1a_pa3_ta4">
+                        a. Explica la razón por la cual leer es importante.
+        </string>
+
+    <string name="res1b_pa3_ta4">
+                        b. Ejemplifica las ideas que debe tener un lector.
+        </string>
+
+    <string name="res1c_pa3_ta4">
+                        c. Demuestra la importancia de reconocer la lectura como una necesidad.
+        </string>
+
+    <string name="res1d_pa3_ta4">
+                        d. Ilustra las condiciones para que la lectura sea fuente de conocimiento.
+        </string>
+
+
+    <string name="pre1_pa4_ta4">
+        1. De acuerdo con el texto, se puede afirmar que las dimensiones de la lectura corresponden a…
+    </string>
+
+    <string name="res1a_pa4_ta4">
+            a. Una serie de recursos a los cuales acude el lector para comprender un texto.
+        </string>
+    <string name="res1b_pa4_ta4">
+            b. Las partes que debe tener un texto para que el lector pueda comprenderlo.
+        </string>
+    <string name="res1c_pa4_ta4">
+            c. Las características del proceso lector.
+        </string>
+    <string name="res1d_pa4_ta4">
+            d. Los niveles básicos para conseguir la comprensión lectora.
+        </string>
+
+    <string name="pre2_pa4_ta4">
+       2. Por medio de la primera dimensión (lectura de las líneas) el lector puede:
+    </string>
+
+    <string name="res2a_pa4_ta4">
+            a. Reconocer una frase que tiene doble sentido
+        </string>
+    <string name="res2b_pa4_ta4">
+            b. Identificar cuál es la idea principal del texto.
+        </string>
+    <string name="res2c_pa4_ta4">
+            c. Dar su opinión acerca del texto.
+        </string>
+    <string name="res2d_pa4_ta4">
+            d. Saber cuál era la intensión del autor al escribir el texto.
+        </string>
+
+    <string name="pre3_pa4_ta4">
+       3. Por medio de la tercera dimensión (lectura tras las líneas) el lector puede:
+    </string>
+
+    <string name="res3a_pa4_ta4">
+            a. Reconocer una frase que tiene doble sentido
+        </string>
+    <string name="res3b_pa4_ta4">
+            b. Identificar cuál es la idea principal del texto.
+        </string>
+    <string name="res3c_pa4_ta4">
+            c. Dar su opinión acerca del texto.
+        </string>
+    <string name="res3d_pa4_ta4">
+            d. Todas las anteriores.
+        </string>
+
+    <string name="pre4_pa4_ta4">
+       4. Por medio de la tercera dimensión (lectura entre líneas) el lector puede:
+    </string>
+
+    <string name="res4a_pa4_ta4">
+                        a. Reconocer una frase que tiene doble sentido.
+        </string>
+    <string name="res4b_pa4_ta4">
+                        b. Identificar cuál es la idea principal del texto.
+        </string>
+    <string name="res4c_pa4_ta4">
+                        c. Dar su opinión acerca del texto.
+        </string>
+    <string name="res4d_pa4_ta4">
+                        d. Saber cuál era la intensión del autor al escribir el texto.
+        </string>
+
+
+    <string name="pre1_pa5_ta4">
+       1. Cuál de las siguientes ideas contradice la definición del ensayo:
+    </string>
+
+    <string name="res1a_pa5_ta4">
+                        a. El ensayo es una mezcla de disciplinas que hace parte de la escritura científica.
+        </string>
+    <string name="res1b_pa5_ta4">
+                        b. El ensayo es un texto académico que pretende convencer al lector de la postura del autor.
+        </string>
+    <string name="res1c_pa5_ta4">
+                        c. El ensayo e s un texto largo que pretende contar una historia que incluye personajes y un narrador.
+        </string>
+    <string name="res1d_pa5_ta4">
+                        d. El ensayo es un texto de carácter crítico que pretende dar argumentos para defender una tesis.
+        </string>
+
+
+    <string name="url">
+
+        </string>
+
+</resources>

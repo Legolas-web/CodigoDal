@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="res_1">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+    </string-array>
+
+    <string-array name="res_2_5">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktypeuno</item>
+        <item>@string/feedbacktypedos</item>
+        <item>@string/feedbacktypetres</item>
+        <item>@string/feedbacktypecuatro</item>
+        <item>@string/feedbacktypecinco</item>
+        <item>@string/feedbacktypeseis</item>
+        <item>@string/feedbacktypesiete</item>
+    </string-array>
+
+    <string-array name="res_sino">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktypesi</item>
+        <item>@string/feedbacktypeno</item>
+    </string-array>
+
+    <string-array name="res_4">
+        <item>@string/feedbacktype0</item>
+
+
+    </string-array>
+
+    <string-array name="res_6">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktypeentreprimeras</item>
+        <item>@string/feedbacktypeentreultimas</item>
+    </string-array>
+
+    <string-array name="res_10">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktypePoesia</item>
+        <item>@string/feedbacktypeCuentos</item>
+        <item>@string/feedbacktypeEnsayos</item>
+        <item>@string/feedbacktypeNovelas</item>
+        <item>@string/feedbacktypeRevistas</item>
+        <item>@string/feedbacktypeComics</item>
+        <item>@string/feedbacktypeOtros</item>
+    </string-array>
+
+    <string-array name="res_15">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktypemuyalto</item>
+        <item>@string/feedbacktypealto</item>
+        <item>@string/feedbacktypebasico</item>
+        <item>@string/feedbacktypebajo</item>
+        <item>@string/feedbacktypemuybajo</item>
+    </string-array>
+
+    <string-array name="res_16">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype16uno</item>
+        <item>@string/feedbacktype16dos</item>
+        <item>@string/feedbacktype16tres</item>
+        <item>@string/feedbacktype16cuatro</item>
+        <item>@string/feedbacktype16cinco</item>
+        <item>@string/feedbacktypeOtra</item>
+    </string-array>
+
+    <string-array name="res_18">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype18uno</item>
+        <item>@string/feedbacktype18dos</item>
+        <item>@string/feedbacktype18tres</item>
+        <item>@string/feedbacktype18cuatro</item>
+        <item>@string/feedbacktypeOtra</item>
+    </string-array>
+
+    <string-array name="res_19">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype19uno</item>
+        <item>@string/feedbacktype19dos</item>
+        <item>@string/feedbacktype19tres</item>
+        <item>@string/feedbacktype19cuatro</item>
+        <item>@string/feedbacktypeOtra</item>
+    </string-array>
+
+    <string-array name="res_20">
+        <item>@string/feedbacktype0</item>
+        <item>@string/feedbacktype20uno</item>
+        <item>@string/feedbacktype20dos</item>
+        <item>@string/feedbacktype20tres</item>
+        <item>@string/feedbacktype20cuatro</item>
+        <item>@string/feedbacktypeOtra</item>
+    </string-array>
+
+
+</resources>

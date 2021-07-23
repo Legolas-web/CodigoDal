@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aTuno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradie_list2"
+    tools:context=".Controllador.TallerUno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="1. Lee atentamente el ensayo “Mi religión”, de Miguel de Unamuno."
+                android:background="@null"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="2. Después de realizar la lectura responde:"
+                android:background="@null"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text="a. ¿Cuál es tu concepto de religión?"
+                    android:background="@null"></TextView>
+
+                <EditText
+                    android:id="@+id/txtresp_2a"
+                    android:layout_width="333dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:hint="Concepto..."></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text="b. ¿Cuál es el tema central del ensayo?"
+                    android:background="@null"></TextView>
+
+                <EditText
+                    android:id="@+id/txtresp_2b"
+                    android:layout_width="333dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:hint="Tema central..."></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text="c. ¿A qué crees se refiere la frase: “La pereza espiritual huye de la posición crítica o escéptica”?"
+                    android:background="@null"></TextView>
+
+                <EditText
+                    android:id="@+id/txtresp_2c"
+                    android:layout_width="333dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:hint="Referencia..."></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text="d. ¿Cuál es tu postura frente al tema central del ensayo? Arguméntala."
+                    android:background="@null"></TextView>
+
+                <EditText
+                    android:id="@+id/txtresp_2d"
+                    android:layout_width="333dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:hint="Postura frente al tema..."></EditText>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="3. En la siguiente ruleta encontrarás algunas ideas tema que surgen del ensayo de Unamuno. Gira la ruleta y elabora un pequeño texto crítico acerca del tratamiento del tema del autor según la idea tema que te corresponda."
+                android:background="@null"></TextView>
+
+            <TextView
+                android:id="@+id/lblIndica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"></TextView>
+            <TextView
+                android:id="@+id/txtGiraRuleta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="270dp"
+                android:text="¡GIRAR!"
+                android:textColor="#ffff"
+                android:background="@null"></TextView>
+            <ImageView
+                android:id="@+id/indicador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/indicador_preview">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imgRuleta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ruleta4">
+
+            </ImageView>
+
+        <TextView
+            android:id="@+id/lblPalabaraSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="PALABRA SELECTA"
+            android:textColor="#ffff"
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtresp_3"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="Texto critico sobre la palabra:"></EditText>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="4. Completa la siguiente tabla con aquellas ideas, frases o comentarios del texto con las que estas de acuerdo o en desacuerdo."
+                android:background="@null"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login2">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/joti_one"
+                            android:text="De Aacuerdo"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:background="@null"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="En Desacuerdo"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/joti_one"
+                            android:background="@null"></TextView>
+                    </TableRow>
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtresp_4_1_1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="De Aacuerdo"></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_4_1_2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En Desacuerdo"></EditText>
+                    </TableRow>
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtresp_4_2_1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="De Aacuerdo"></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_4_2_2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En Desacuerdo"></EditText>
+                    </TableRow>
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtresp_4_3_1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="De Aacuerdo"></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_4_3_2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En Desacuerdo"></EditText>
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="5. Después de leer a Unamuno, en “Mi religión”, ¿qué piensas acerca de la religión?"
+                android:background="@null"></TextView>
+
+            <EditText
+                android:id="@+id/txtresp_5"
+                android:layout_width="333dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="¿qué piensas?"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="6. Completa la tabla teniendo en cuenta la lectura y las dimensiones de la lectura."
+                android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login2">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:text="Lectura de las líneas: Dimensión literal"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura entre líneas: Dimensión inferencial"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura detrás de las líneas: Dimensión crítica"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txtresp_6_1_1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_6_1_2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_6_1_3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txtresp_6_2_1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_6_2_2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtresp_6_2_3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_enviar_taller_1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:visibility="invisible"
+                android:text="ENVIAR TALLER 1" />
+    </LinearLayout>
+
+</ScrollView>

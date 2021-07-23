@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_login"
+    android:elevation="4dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/imgUsuario"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtToolNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/joti_one"
+        android:text="HOLA USUARIO"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp">
+
+    </TextView>
+
+</Toolbar>

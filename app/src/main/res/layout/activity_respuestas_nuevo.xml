@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controllador.RespuestasNuevo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/lblFechaNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="FECHA"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="1. Cuando lees, ¿disfrutas con la lectura o la consideras una actividad no placentera?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes1_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 1"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="2. ¿Cuántos libros has leído en el tiempo de la pandemia?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes2_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 2"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="3. ¿Has leído alguna vez un ensayo voluntariamente?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes3_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 3"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="4. ¿En qué asignaturas los profesores suelen enviarte lecturas? Menciónalas."
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes4_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 4"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="5. ¿Cuántos libros leíste durante el último curso escolar?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes5_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 5"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="6. ¿Qué lugar ocupa la lectura entre las actividades que realizas en tu tiempo libre?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes6_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 6"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="7. ¿Crees que el hábito de lectura influye en tu rendimiento académico?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes7_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 7"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="8. ¿Consideras que la institución ha despertado en ti el interés por la lectura?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes8_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 8"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="9. ¿Considerarías útil que el colegio programe una serie de actividades con el objeto de
+des                             pertar en ti el interés por la lectura?,  Indica alguna actividad que creas positiva:"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes9_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 9"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="10. ¿Qué tipo de textos prefieres para tu lectura?, Indica por qué lo prefieres  "
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes10_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 10"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="11. ¿Consideras que el ensayo es un texto difícil y aburrido de comprender? "
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes11_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 11"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="12. ¿Hablas o comentas con alguien acerca de lo que lees?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes12_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 12"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="13. ¿Consideras que la familia influye en tus hábitos de lectura?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes13_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 13"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="14. ¿Piensas que la lectura es tu fuente principal de conocimientos?, Indica por qué"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes14_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 14"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="15. ¿Cómo calificarías tu nivel de comprensión lectora?"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes15_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 15"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="16. ¿Cuáles son los problemas que consideras que dificultan la comprensión lectora? Puedes escoger varias opciones."
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes16_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 16"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="17. Si comparamos las horas que dedicas a la lectura con las que usas tu celular, ¿en qué proporción las situarías."
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes17_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 17"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="18. Cuando deseas leer tu:"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes18_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 18"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="19. Lees cuando:"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes19_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 19"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="20. Generalmente cuando lees un ensayo sientes que: "
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblRes20_ta5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="Respuesta 20"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

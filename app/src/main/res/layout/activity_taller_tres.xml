@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SCTtres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradie_list2"
+    tools:context=".Controllador.TallerTres">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="1. Lee atentamente el ensayo “Los sostenes de la patria”, de José Martínez Ruíz (Azorín)."
+            android:background="@null"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="2. Busca el significado de las siguientes palabras:"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Febril:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_1_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Atusa:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_2_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Flaccidos:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_3_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Exangües:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_4_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Plañidos:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_5_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Someramente:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_6_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Hoscamente:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_7_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:text="-	Corolario:"></TextView>
+
+            <EditText
+                android:id="@+id/txt2_8_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta"></EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="3. Luego de hacer la lectura del ensayo responde:"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="- ¿En que lugar se lleva a cabo la historia?"
+                android:background="@null"></TextView>
+
+            <EditText
+                android:id="@+id/txt3_1_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta:"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="-	¿Qué relación crees que tenga el título del ensayo con el texto?"
+                android:background="@null"></TextView>
+
+            <EditText
+                android:id="@+id/txt3_2_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta:"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="-	Explica la frase “las leyes se hacen para los ricos”"
+                android:background="@null"></TextView>
+
+            <EditText
+                android:id="@+id/txt3_3_ta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:hint="respuesta:"></EditText>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="4. Completa el siguiente mapa mental teniendo cuenta el tema, las ideas principales, secundarias y complementarias del texto."
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_login2"
+            android:layout_margin="20dp"
+            android:padding="30dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtComple4_1_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:hint="Idea complementaria"></EditText>
+
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/primera_flechados"></ImageView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="113dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/cuarta_flecha"></ImageView>
+                        <EditText
+                            android:id="@+id/txtComple4_5_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:hint="Idea complementaria"></EditText>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="40dp"
+                            android:src="@drawable/novena_flecha"></ImageView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <EditText
+                            android:id="@+id/txtSegun4_2_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:gravity="center"
+                            android:hint="Idea secundaria"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"></EditText>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <EditText
+                            android:id="@+id/txtSegun4_4_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:gravity="center"
+                            android:hint="Idea secundaria"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"></EditText>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/septima_flecha"></ImageView>
+
+                        <EditText
+                            android:id="@+id/txtPri4_7_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="40dp"
+                            android:textSize="13dp"
+                            android:hint="Idea principal"></EditText>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <EditText
+                            android:id="@+id/txtSegun4_10_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:hint="Idea secundaria"></EditText>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:visibility="invisible"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <ImageView
+                            android:layout_width="58dp"
+                            android:layout_height="81dp"
+                            android:layout_marginTop="40dp"
+                            android:src="@drawable/segunda_flecha"></ImageView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <ImageView
+                            android:layout_width="58dp"
+                            android:layout_height="115dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="20dp"
+                            android:src="@drawable/tercera_flecha"></ImageView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <EditText
+                            android:id="@+id/txtPri4_6_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="40dp"
+                            android:textSize="13dp"
+                            android:hint="Idea principal"></EditText>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="70dp"
+                            android:layout_marginLeft="40dp"
+                            android:src="@drawable/octaba_flecha"></ImageView>
+                        <EditText
+                            android:id="@+id/txtSegun4_7_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="40dp"
+                            android:textSize="13dp"
+                            android:hint="Idea secundaria"></EditText>
+
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/onceaba_flecha"></ImageView>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <EditText
+                            android:id="@+id/txtPri4_3_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:hint="Idea principal"></EditText>
+                        <ImageView
+                            android:layout_width="58dp"
+                            android:layout_height="81dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:src="@drawable/quinta_flecha"></ImageView>
+                        <ImageView
+                            android:layout_width="58dp"
+                            android:layout_height="81dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:src="@drawable/sexta_flecha"></ImageView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:visibility="invisible"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <ImageView
+                            android:layout_width="61dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/decima_flecha"></ImageView>
+
+                        <EditText
+                            android:id="@+id/txtComple4_11_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="74dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:gravity="center"
+                            android:hint="Idea complementaria"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"></EditText>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:visibility="invisible"
+                            android:text="¿Quiénes participan en la historia?"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"></TextView>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:visibility="invisible"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <EditText
+                            android:id="@+id/txtComple4_8_ta3"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/circle"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:hint="Idea complementaria"></EditText>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:visibility="invisible"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="5. ¿Con qué persona de tu entorno podrías relacionar o comparar al personaje de Don Luis? Explica por qué."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txt7_ta3"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="personas de tu entorno..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="6. Encuentra algunos aspectos de la España que muestra el ensayo que puedas comparar con la situación actual de nuestro país. Explícalos."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txt8_ta3"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="aspectos..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="7. Escribe un comentario crítico que abarque aspectos de CONTENIDO (temática que desarrolla, actitud del personaje, estrategia narrativa empleada por el autor) y ESCRITURALES (lenguaje estético)."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txt9_ta3"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="comentario..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="8. Completa la tabla teniendo en cuenta la lectura y las dimensiones de la lectura."
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login2">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:text="Lectura de las líneas: Dimensión literal"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura entre líneas: Dimensión inferencial"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura detrás de las líneas: Dimensión crítica"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txt10_1_1_ta3"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txt10_1_2_ta3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txt10_1_3_ta3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txt10_2_1_ta3"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txt10_2_2_ta3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txt10_2_3_ta3"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_enviar_taller_3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:text="ENVIAR TALLER 3" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutScrollViewTaller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradie_list"
+    tools:context=".Controllador.ModuloTaller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MIS TALLERES"
+                android:fontFamily="@font/joti_one"
+                android:textSize="22sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgBaja1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/bajandouno"
+            android:visibility="invisible">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+           >
+
+
+            <TextView
+                android:id="@+id/radioClickUno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/circle2"
+                android:gravity="center"
+                android:fontFamily="@font/joti_one"
+                android:text="TALLER 1:\n “Mi religión”"
+                android:textColor="#180101"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBaja2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="160dp"
+            android:layout_marginLeft="30dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/bajandodos"
+            android:visibility="invisible">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            >
+
+
+            <TextView
+                android:id="@+id/radioClickDos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/circle2"
+                android:gravity="center"
+                android:fontFamily="@font/joti_one"
+                android:text="TALLER 2: “Los \n obreros de Lebrija”"
+                android:textColor="#180101"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBaja3"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginRight="60dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/bajandotres"
+            android:visibility="invisible"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:paddingBottom="80dp"
+            android:paddingRight="20dp"
+            >
+
+
+            <TextView
+                android:id="@+id/radioClickTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/circle2"
+                android:gravity="center"
+                android:fontFamily="@font/joti_one"
+                android:text="TALLER 3:\n “Los sostenes\n de la patria”"
+                android:textColor="#180101"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_index_dal"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DAL"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Controllador.RespuestasNuevo"></activity>
+        <activity android:name=".Controllador.FormUsuarioNuevo" />
+        <activity android:name=".Controllador.AdminTurusElimina" />
+        <activity android:name=".Controllador.CalificaCuatro" />
+        <activity android:name=".Controllador.CalificaTres" />
+        <activity android:name=".Controllador.CalificaDos" />
+        <activity android:name=".Controllador.Califica" />
+        <activity android:name=".Controllador.AdminTurus" />
+        <activity android:name=".Controllador.AdminUsuario" />
+        <activity android:name=".Controllador.TallerTres" />
+        <activity android:name=".Controllador.TallerDos" />
+        <activity android:name=".Controllador.TallerUno" />
+        <activity android:name=".Controllador.ModuloTaller" />
+        <activity android:name=".Controllador.ModuloTeorico" />
+        <activity android:name=".Controllador.ModuloPractico" />
+        <activity android:name=".Controllador.Inicio" />
+        <activity android:name=".Controllador.formRegistrarUsuario" />
+        <activity android:name=".Controllador.InicioSesion" />
+        <activity android:name=".Controllador.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SCTdos"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradie_list2"
+    tools:context=".Controllador.TallerDos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="1. Lee con atención el ensayo “Los obreros de Lebrija”, de José Martínez Ruíz (Azorín)."
+            android:background="@null"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="2. Realiza una breve descripción de lo que tú consideras qué es un obrero."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtres2_ta2"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="descripción..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="3. Completa el esquema basado en la información que te brinda el texto."
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_login2"
+            android:layout_margin="20dp"
+            android:padding="30dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Quiénes participan en la historia?"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:text="Lectura entre líneas: Dimensión inferencial"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="¿Dónde se desarrolla la historia?"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:background="@drawable/btn_login3"
+                            ></TextView>
+                    </TableRow>
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtres3_1_ta2"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login4"
+                            android:hint="¿Quiénes participan en la historia? RTA: "></EditText>
+                        <EditText
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtres3_2_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login3"
+                            android:hint="¿Dónde se desarrolla la historia? RTA: "></EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login5"
+                            android:fontFamily="@font/joti_one"
+                            android:text="¿Por qué crees que los obreros  eran tímidos para responder a las preguntas de Azorín?"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:visibility="invisible"></TextView>
+
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/btn_login2"
+                            android:fontFamily="@font/joti_one"
+                            android:text="Los obreros de Lebrija"
+                            android:textColor="@color/white"
+                            android:textSize="24dp"></TextView>
+
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login6"
+                            android:fontFamily="@font/joti_one"
+                            android:text="¿Existe un problema en esta historia? ¿Cuál?"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:visibility="invisible"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login5"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            android:text="¿Por qué crees que los obreros  eran tímidos para responder a las preguntas de Azorín?"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Los obreros de Lebrija"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/white"
+                            android:layout_margin="15dp"
+                            android:visibility="invisible"
+                            android:textSize="24dp"
+                            android:background="@drawable/btn_login2"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="¿Existe un problema en esta historia? ¿Cuál?"
+                            android:fontFamily="@font/joti_one"
+                            android:background="@drawable/btn_login6"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"></TextView>
+                    </TableRow>
+                    <TableRow>
+                        <EditText
+                            android:id="@+id/txtres3_3_ta2"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login5"
+                            android:hint="¿Por qué crees que los obreros  eran tímidos para responder a las preguntas de Azorín? RTA: "></EditText>
+                        <EditText
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtres3_4_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_login6"
+                            android:hint="¿Existe un problema en esta historia? ¿Cuál? RTA: "></EditText>
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="4. ¿Cuál crees que era la intención del narrador al pedir a sus compañeros las cuentas de sus ganancias y sus necesidades? Explica."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtres4_ta2"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="intención del narrador..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="5. Los textos de Azorín se destacan por concluir con una reflexión acerca del tema del ensayo. Identifica el tema del ensayo y, luego, escribe en cinco renglones la relación existente entre el tema y la reflexión que se presentan en el texto."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtres5_ta2"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="Relaciones..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="6. ¿Lo relatado en el ensayo tiene algún parecido con otra historia o situación de la actualidad que conozcas? ¿Por qué?"
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtres6_ta2"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="¿Por qué?"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="7. Escoge la opción correcta:"
+            android:background="@null"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="I. De los siguientes enunciados ¿cuál es el que más contradice la postura del autor?"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7one_1_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="“(A) La palabra más importante de la clase obrera es “solidaridad” (Harry Bridge).">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7one_2_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="“(B) El obrero no lucha por si mismo, sino por toda la clase obrera” (Nicolás Berdiaeff).">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7one_3_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="“(C) La clase obrera se va aburguesando cada vez más” (Friedrich Engels).">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7one_4_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(D) El obrero tiene más necesidad de respeto que de pan” (Anónimo).">
+                </RadioButton>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="II. Del texto se puede concluir que"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7two_1_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(A) Los obreros deben trabajar más duro para ganar mejor.">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7two_2_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(B) bExisten muchas injusticias con la clase trabajadora">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7two_3_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(C) El Estado no tiene las suficientes tierras para todas las personas. ">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7two_4_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(D) Los trabajadores deben gastar menos en mercado para que les alcance el dinero.">
+                </RadioButton>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="III. Basado en cómo se desenvuelve la historia del texto, se podría afirmar que el autor"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7three_1_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(A) Se encuentra bastante feliz por haberse reunido con sus amigos.">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7three_2_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(B) Juzga a los personajes por no ser más fuertes ante las situaciones difíciles.">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7three_3_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(C) No se encuentra conforme con la situación de injusticia que están pasando los obreros.">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rg_rb_7three_4_ta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="(D) Está convencido que puede cambiar los sentimientos de las personas con quienes habla.">
+                </RadioButton>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="8. ¿Cuál es tu postura frente al tema central de este texto? Arguméntala."
+            android:background="@null"></TextView>
+
+        <EditText
+            android:id="@+id/txtres8_ta2"
+            android:layout_width="333dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:hint="postura frente al tema..."></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="9. Completa la tabla teniendo en cuenta la lectura y las dimensiones de la lectura."
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login2">
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:text="Lectura de las líneas: Dimensión literal"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura entre líneas: Dimensión inferencial"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                        <TextView
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:text="Lectura detrás de las líneas: Dimensión crítica"
+                            android:fontFamily="@font/joti_one"
+                            android:textColor="@color/black"
+                            android:background="@null"></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txtres9_1_1_ta2"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txtres9_1_2_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtres9_1_3_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/btn_login"
+                        android:padding="5dp"
+                        android:layout_margin="5dp">
+                        <EditText
+                            android:id="@+id/txtres9_2_1_ta2"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar dos ejemplos de información literal que presenta el texto."></EditText>
+                        <EditText
+                            android:id="@+id/txtres9_2_2_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes ubicar una frase que presente algo que no se ha dicho explícitamente y luego escribe lo que dedujiste de ella."></EditText>
+                        <EditText
+                            android:id="@+id/txtres9_2_3_ta2"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:hint="En este espacio debes escribir una reflexión, una evaluación o una crítica del texto."></EditText>
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_enviar_taller_2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:text="ENVIAR TALLER 2" />
+    </LinearLayout>
+
+</ScrollView>

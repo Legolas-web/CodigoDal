@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPractico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradie_list"
+    tools:context=".Controllador.ModuloPractico">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RULETA DE PRACTICAS"
+            android:fontFamily="@font/joti_one"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/indicador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/indicador_preview">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgRuleta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/ruleta_dos">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnGirar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIRAR"
+        android:layout_marginHorizontal="100dp"
+        android:layout_alignBottom="@+id/imgRuleta"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/joti_one">
+    </Button>
+
+    <TextView
+        android:id="@+id/txtIndicador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="32dp"
+        android:visibility="invisible"
+        android:text="" />
+
+</RelativeLayout>

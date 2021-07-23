@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controllador.CalificaDos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/lblFecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="FECHA"
+            android:background="@null"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/lblRes1_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="Respuesta 1"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId1_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 1"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota1_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes2_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 2"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId2_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 2"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota2_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes3_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 3"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId3_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 3"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota3_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes4_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 4"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId4_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 4"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota4_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes5_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 5"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId5_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 5"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota5_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes6_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 6"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId6_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 6"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota6_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes7_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 7"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId7_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 7"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota7_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes8_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 8"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId8_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 8"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota8_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes9_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 9"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId9_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 9"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota9_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes10_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 10"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId10_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 10"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota10_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+
+            <TextView
+                android:id="@+id/lblRes11_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="Respuesta 11"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId11_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 11"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota11_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes12_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 12"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId12_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 12"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota12_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes13_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 13"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId13_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 13"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota13_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes14_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 14"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId14_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 14"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota14_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes15_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 15"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId15_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 15"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota15_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes16_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 16"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId16_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 16"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota16_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes17_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 17"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId17_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 17"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota17_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+            <TextView
+                android:id="@+id/lblRes18_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Respuesta 18"
+                android:textColor="@color/black"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:id="@+id/lblResId18_ta2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:text="Id 18"
+                android:textSize="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/txtNota18_ta2"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:hint="Nota"></EditText>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_califica_taller_2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:text="CALIFICAR" />
+    </LinearLayout>
+
+</ScrollView>

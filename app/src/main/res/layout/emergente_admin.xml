@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/butoontres">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/lblTaller1"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/circle_admin"
+            android:fontFamily="@font/joti_one"
+            android:textColor="@color/teal_200"
+            android:layout_margin="15dp"
+            android:textSize="16dp"
+            android:text="TALLER UNO"></TextView>
+
+        <TextView
+            android:id="@+id/lblTaller2"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/circle_admin"
+            android:fontFamily="@font/joti_one"
+            android:textColor="@color/colorLoginOscuro"
+            android:textSize="16dp"
+            android:text="TALLER DOS"></TextView>
+
+        <TextView
+            android:id="@+id/lblTaller3"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/circle_admin"
+            android:fontFamily="@font/joti_one"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"
+            android:text="TALLER TRES"></TextView>
+
+        <TextView
+            android:id="@+id/lblTaller4"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/circle_admin"
+            android:fontFamily="@font/joti_one"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="TALLER CUATRO"></TextView>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
